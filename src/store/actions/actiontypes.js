@@ -1,0 +1,11 @@
+export const LOGIN = "LOGIN";
+export const SIGN_UP = "SIGN_UP";
+export const SHOW_PROFILE = "SHOW_PROFILE";
+export const UPDATE_PROFILE = "UPDATE_PROFILE";
+export const UPDATE_FAIL = "UPDATE_FAIL";
+export const LOGIN_FAIL = "LOGIN_FAIL";
+export const REGISTER_FAIL = "REGISTER_FAIL";
+export const AUTH_FAIL = "AUTH_FAIL";
+export const LOGOUT = 'LOGOUT';
+export const LOADING_PROCESS= 'LOADING_PROCESS';
+export const LOADING_SUCCESS = 'LOADING_SUCCESS';

@@ -1,0 +1,191 @@
+body{
+  height:100%;
+  width: 100%;
+}
+.App {
+  text-align: center;
+}
+
+.mainHeader{
+  display: flex;
+  background-color: #c15339;
+  color:white
+}
+nav{
+  width: 100%;
+}
+.mainHeader nav ul{
+  display:flex;
+  justify-content: center;
+  list-style-type: none;
+  padding:0
+  
+}
+.mainHeader nav ul li{
+  padding: 10px 9px
+}
+.mainHeader nav ul a  {
+color:white;
+margin: 0 10px;
+text-decoration: none;
+
+}
+.mainHeader nav ul li:hover{
+  background: #ca634c;
+}
+.bodyContianer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.5rem;
+  height: 100vh;
+}
+.logoutBtn span{
+  font-size: .9rem;
+  margin-right: 4px;
+  cursor: pointer;
+}
+.logoutBtn:hover{
+  background-color: #ca634c;
+}
+.formContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 1px solid rgb(90, 194, 86);
+  padding:20px;
+  border-radius: 10px;
+}
+.formContainer form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 300px;
+  min-width: 350px;
+  
+}
+.formContainer form div{
+  width:100%
+}
+.formContainer input{
+  padding:10px;
+  border:1px solid greenyellow;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.formContainer form button{
+  background: rgb(65, 59, 59);
+  text-shadow: none;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding:5px;
+  cursor: pointer;
+}
+.formContainer form button:hover{
+  background: #e76649;
+  
+}
+.formContainer form button{
+  background: #e76649;
+  text-shadow: none;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding:5px
+}
+.formfootertext{
+  font-size: .9rem;
+}
+.formerror{
+  color:rgb(241, 77, 77)
+}
+.formfootertext a{
+  text-decoration: none;
+  color:#ca634c
+}
+.formfootertext a:hover{
+  color:#6b3124;
+  cursor: pointer;
+}
+.userinformationcontainer{
+  border:1px solid gray;
+  padding:7px;
+  border-radius: 15px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+ 
+}
+.profileContainer h2{
+  text-transform: capitalize;
+  transition: all .3s;
+  border-bottom: 5px solid #6b3124 ;
+}
+.profiledetail{
+  list-style-type: none;
+  padding: 0;
+  padding: 20px;
+  border-radius: 15px;
+}
+.profiledetail li{
+  display: flex;
+  justify-content: space-between;
+  margin:15px 0;
+  padding:0 14px
+}
+.profiledetail li:nth-child(odd){
+  background-color: rgb(90, 194, 86);
+
+}
+.profiledetail li span{
+  padding:10px
+}
+.btn{
+  padding:10px;
+  border: 1ps solid black;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(37, 182, 100);
+  width: 120px;
+  border-radius: 10px;
+}
+.btn:hover{
+  background-color: rgb(105, 228, 158);
+}
+.btn a{
+  text-decoration: none;
+  color: white;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
